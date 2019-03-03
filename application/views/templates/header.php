@@ -3,6 +3,7 @@
 	<title>Ci Blog</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/style.css">
+	<script src="//cdn.ckeditor.com/4.11.3/standard/ckeditor.js"></script>
 </head>
 <body>
 <!--<nav class="navbar navbar-inverse">
@@ -42,10 +43,9 @@
 				<a class="nav-link" href="#">About</a>
 			</li>
 		</ul>
-		<form class="form-inline my-2 my-lg-0">
-			<input class="form-control mr-sm-2" type="text" placeholder="Search">
-			<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-		</form>
+		<ul class="nav navbar-nav navbar-right">
+			<li class="nav-item"><a class="nav-link"  href="<?php echo base_url(); ?>posts/create">Create</a> </li>
+		</ul>
 	</div>
 </nav>
 <div class="container">
